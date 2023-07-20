@@ -1,0 +1,120 @@
+
+
+.card-box{
+    border: 0px solid grey;
+    width: 600px;
+    height: 400px;
+    align-self: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+body{
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-section {
+    padding: 20px;
+    display: inline-block;
+    height: 40%;
+    font-size: 0.9rem;
+    
+}
+
+.top-section p{
+    color: #98a6bd;
+    font-size: 0.9em;
+    margin-top: 0%;
+}
+
+h1{
+    color: rgb(59, 179, 179);
+    margin-top: 10px;
+
+}
+
+h2{
+    color: #c0df34;
+    margin-bottom: 5px;
+}
+
+.bottom-card{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 100%;
+    height:60% ;
+    vertical-align: top;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.bottom-left-box{
+    display: inline-block;
+    background-color: rgb(73, 171, 153);
+    padding: 20px;
+    vertical-align: top;
+    
+}
+
+.bottom-right-box{
+    background-color: rgb(108, 180, 169);
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+
+}
+
+h3{
+    margin-top: 4px;
+}
+
+.pricing-frequency{
+    margin-top: 10px;
+}
+
+#pricing{
+    font-weight:900px;
+    display: inline-block;
+}
+
+
+#per-month{
+    font-size: 0.8rem;
+    color: #e3eaf6;
+    display: inline-block;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color:  #c0df34;
+    border: none;
+    border-radius: 5px;
+    
+
+}
+
+.bottom-card p{
+    font-size: 0.9em;
+}
+
+.bottom-right-box ul{
+    font-size: 0.9em;
+    opacity: 0.8;
+    list-style: none;
+    
+    
+}
+button:hover{
+    background-color:  #b0c166;
+    transition: 0.8s;
+    transform: scale(1.02);
+    cursor: pointer;
+
+}
