@@ -118,3 +118,13 @@ button:hover{
     cursor: pointer;
 
 }
+
+@media (max-width: 700px) {
+    .card-box, .bottom-left-box,.bottom-right-box,.button,.bottom-card{
+        width: 100%;
+        height: auto;
+        grid-template-columns: auto;
+    }
+
+    
+}
